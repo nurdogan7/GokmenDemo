@@ -1,0 +1,106 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.welcome-page {
+    background-image: url("/assets/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    width: 175px;
+}
+
+.links {
+    position: relative;
+    display: inline-grid;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon-area {
+    background-color: #fed136;
+    height: 96px;
+    width: 96px;
+}
+
+.contact {
+    background-color: #222;
+    background-image: url(/assets/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.padding {
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+.my-5 {
+    padding-top: 5.5rem !important;
+    padding-bottom: 5.5rem !important;
+}
+
+.text-color {
+    color: #fff;
+    font-family: 'Roboto Slab', serif !important;
+
+}
+
+.mx-5 {
+    padding-right: 5.5rem !important;
+    padding-left: 5.5rem !important;
+}
+
+.help-text {
+    font-style: italic;
+    color: #777;
+}
+
+.py-6 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.font-400 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.font-600 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.font-800 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.fs-1 {
+    font-size: 4rem !important;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+a:hover {
+    color: gray;
+}
+
+.fa-3xl {
+    font-size: 64px;
+}
+
+.whatsapp-color {
+    color: #25D366;
+}
